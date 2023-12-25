@@ -28,7 +28,6 @@ function RestaurantCard({ data }) {
     return (
         <div className="w-full md:w-1/2 lg:w-1/3 p-4" >
             <div className="h-full bg-gray-100 rounded-2xl">
-                { console.log(data.attributes.image)}
                 <Image
                     className="w-full rounded-2xl"
                     height={300}
