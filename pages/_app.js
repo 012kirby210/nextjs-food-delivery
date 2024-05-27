@@ -21,8 +21,8 @@ export default function App({ Component, pageProps }) {
   return (
     <ApolloProvider client={client}>
       <Layout>
-      <Component {...pageProps} />
-    </Layout>
+        <Component {...pageProps} />
+      </Layout>
     </ApolloProvider>
   );
 }

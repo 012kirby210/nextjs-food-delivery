@@ -1,5 +1,5 @@
 import { useState } from "react";
-import RestaurantList from "@/components/Restaurants";
+import RestaurantList from "@/components/RestaurantList";
 import Head from "next/head";
 
 export default function Home() {
